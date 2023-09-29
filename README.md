@@ -14,22 +14,27 @@ To use this project as a Chrome extension, follow the steps below:
     ```sh
     git clone https://github.com/coderbaba0/Easy_share.git
     ```
-
 2. From the project directory, run:
+   
+   ```sh
+   flutter pub get
+   ```
+
+3. From the project directory, run:
    
    ```sh
    flutter build web --web-renderer html --csp
    ```
 
-3. Go to the following URL from Chrome browser:
+4. Go to the following URL from Chrome browser:
    
    ```url
    chrome://extensions
    ```
 
-4. Enable the **Developer mode**.
+5. Enable the **Developer mode**.
 
-5. Click **Load unpacked**. Select the `<project_dir>/build/web` folder.
+6. Click **Load unpacked**. Select the `<project_dir>/build/web` folder.
 
 ## License
 

@@ -1,0 +1,16 @@
+{
+    "name": "Easy Share",
+    "description": "This is url share tool, You can share any url to your phone using QR concept . Just open your camera and scan it you got the url on the your device.",
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/Icon-192.png"
+    },
+    "manifest_version": 3,
+    "permissions": [
+        "tabs"
+    ]
+}

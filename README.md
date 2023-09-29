@@ -34,6 +34,7 @@ To use this project as a Chrome extension, follow the steps below:
 ## License
 
 Copyright (c) 2023 Sattababa0
+
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or

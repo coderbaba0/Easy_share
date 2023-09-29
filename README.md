@@ -20,7 +20,7 @@ To use this project as a Chrome extension, follow the steps below:
    flutter pub get
    ```
 
-3. From the project directory, run:
+3. Now from same directory, run:
    
    ```sh
    flutter build web --web-renderer html --csp
@@ -38,7 +38,7 @@ To use this project as a Chrome extension, follow the steps below:
 
 ## License
 
-Copyright (c) 2023 Sattababa0
+Copyright (c) 2023 Coderbaba0
 
 This is free and unencumbered software released into the public domain.
 

@@ -6,7 +6,7 @@ import 'package:qr_flutter/qr_flutter.dart';
 
 void main() => runApp( const MyApp());
 
-// method for getting current tab url
+// method for getting current tab url 
 Future<Tab> getActiveTab() async {
   QueryInfo queryInfo = QueryInfo(active: true, lastFocusedWindow: true);
   // Chrome library, not like JS namespaces

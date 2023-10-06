@@ -47,6 +47,7 @@ class _MyAppState extends State<MyApp> {
                 ),
           ],
             );
+            //loader
           } else {
             return const Center(child: CircularProgressIndicator());
           }
